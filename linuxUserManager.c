@@ -233,6 +233,8 @@ int multiChangeUidGid(void *arg)
 {
     PATH *pathNode = (PATH *)arg;
     changeUidGid(pathNode);
+    free(pathNode->path);
+    free(pathNode);
     return 0;
 }
 
