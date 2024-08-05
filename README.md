@@ -7,7 +7,7 @@ A tool to synchronize user uid and gid on linux.
 ```bash
 git clone https://github.com/liu-congcong/linuxUserManager.git
 cd linuxUserManager
-gcc -o linuxUserManager linuxUserManager.c -L./ -lcrypt -lthreadPool -lpthread
+gcc -o linuxUserManager linuxUserManager.c -lcrypt -lpthread
 ```
 
 ```bash
